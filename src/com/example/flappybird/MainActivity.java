@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        // We're manually constructing a view here to avoid explaining XML
+        // Manual construction of a view
         gameView = new GameView(this);
         FrameLayout fl = new FrameLayout(this);
         fl.setLayoutParams(new LayoutParams());
